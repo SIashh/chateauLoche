@@ -6,13 +6,19 @@
 #container {
     background-image: url("../img/Loches4.jpg");
     height: 100vh;
-    /*opacity: 0.9;*/
 }
 
 #empty {
   background-image: url("../img/Loches3.jpg");
+  background-position: 0 5vh;
   height: 85vh;
-  /*opacity: 1.0;*/
+}
+
+#empty2 {
+  background-image: url("../img/Loches5.jpg");
+  background-position: 0 7vh;
+  /*background-position: 0 1vh;*/
+  height: 85vh;
 }
 
 h2 {
@@ -32,34 +38,56 @@ h2 {
 }
 
 .mainPart {
+  height: 85vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+#discover {
+  margin-top: 15vh;
+}
+
 .bgBlue {
   color: #D9B897;
+  background-color: #565E75;
 }
 
-.bgBeige {
+.bgBleuClair {
   color: #3F3233;
+  background-color: #75AAF4;
 }
 
+<<<<<<< HEAD
 #discover{
   height: 100vh;
   background-color: #4E5975;
   font-family: opensemibold;
+=======
+.bgVert {
+  color: #3F3233;
+  background-color: #5C712F;
+>>>>>>> ea161106c1bcbba24be1b67efc5d69b6e6d14164
 }
 
-#prepare{
-  height: 85vh;
+.bgBleuFoncé {
+  color: #D9B897;
+  background-color: #3B4C5C;
+}
+
+.bgBeige {
+  color: #3F3233;
   background-color: #D9B897;
 }
 
-#event{
-  height: 85vh;
-  background-color: #4E5975;
+.bgOrange {
+  color: #3F3233;
+  background-color: #C54913;
+}
+
+#footer {
+  height: 40vh;
 }
 
 
@@ -111,6 +139,7 @@ h2 {
   background-color: #3F3233;
   height: 15vh;
   position: fixed;
+  top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -122,10 +151,58 @@ h2 {
   font-size: 1.2em;
 }
 
+<<<<<<< HEAD
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 70%;
     margin: auto;
+=======
+
+///////
+.contain {
+  /*margin: 0 auto;*/
+  width: 100vh;
+  height: 20vw;
+  position: relative;
+  perspective: 1000px;
+}
+
+#carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+  background: #ed1c24;
+  background-repeat: no-repeat;
+  background-image: url("../img/panolr04.jpg");
+
+}
+.b {
+  transform: rotateY(120deg) translateZ(250px);
+  background: #0072bc;
+  background-repeat: no-repeat;
+  background-image: url("../img/jardin.PNG");
+
+>>>>>>> ea161106c1bcbba24be1b67efc5d69b6e6d14164
 }
 
 #myCarousel{
