@@ -6,13 +6,19 @@
 #container {
     background-image: url("../img/Loches4.jpg");
     height: 100vh;
-    /*opacity: 0.9;*/
 }
 
 #empty {
   background-image: url("../img/Loches3.jpg");
+  background-position: 0 5vh;
   height: 85vh;
-  /*opacity: 1.0;*/
+}
+
+#empty2 {
+  background-image: url("../img/Loches5.jpg");
+  background-position: 0 7vh;
+  /*background-position: 0 1vh;*/
+  height: 85vh;
 }
 
 h2 {
@@ -32,34 +38,49 @@ h2 {
 }
 
 .mainPart {
+  height: 85vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+#discover {
+  margin-top: 15vh;
+}
+
 .bgBlue {
   color: #D9B897;
+  background-color: #565E75;
+}
+
+.bgBleuClair {
+  color: #3F3233;
+  background-color: #75AAF4;
+}
+
+.bgVert {
+  color: #3F3233;
+  background-color: #5C712F;
+}
+
+.bgBleuFoncé {
+  color: #D9B897;
+  background-color: #3B4C5C;
 }
 
 .bgBeige {
   color: #3F3233;
-}
-
-#discover{
-  height: 85vh;
-  background-color: #4E5975;
-  font-family: opensemibold;
-}
-
-#prepare{
-  height: 85vh;
   background-color: #D9B897;
 }
 
-#event{
-  height: 85vh;
-  background-color: #4E5975;
+.bgOrange {
+  color: #3F3233;
+  background-color: #C54913;
+}
+
+#footer {
+  height: 40vh;
 }
 
 
@@ -111,6 +132,7 @@ h2 {
   background-color: #3F3233;
   height: 15vh;
   position: fixed;
+  top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -125,7 +147,7 @@ h2 {
 
 ///////
 .contain {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   width: 100vh;
   height: 20vw;
   position: relative;
