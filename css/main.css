@@ -6,54 +6,68 @@
 #container {
     background-image: url("../img/Loches4.jpg");
     height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     /*opacity: 0.9;*/
+}
+
+#empty {
+  background-image: url("../img/Loches3.jpg");
+  height: 85vh;
+  /*opacity: 1.0;*/
 }
 
 h2 {
   text-align: center;
   padding-top: 15vh;
   font-family: 'Berkshire Swash', cursive;
+}
+
+.bgBlue h2 {
   color: #F4DEBB;
 }
 
-#p1{
+.paragrapheMain{
   padding: 10vh;
   text-align: center;
-  color: white
+  font-size: 1.3em;
+}
+
+.mainPart {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgBlue {
+  color: #D9B897;
+}
+
+.bgBeige {
+  color: #3F3233;
 }
 
 #discover{
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 85vh;
   background-color: #4E5975;
   font-family: opensemibold;
 }
 
 #prepare{
   height: 85vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #D9B897;
 }
 
-#prep {
-  color: #0B0B0D;
+#event{
+  height: 85vh;
+  background-color: #4E5975;
 }
+
 
 #logo{
   padding: 1vh;
   padding: 1vw;
   float: left;
-  margin-right: 37vh;
+  margin-right: 25vh;
 }
 
 .reseau {
@@ -105,7 +119,7 @@ h2 {
 .onglet_bandeau a{
   text-decoration: none;
   color: #F4DEBB;
-
+  font-size: 1.2em;
 }
 
 
