@@ -1,22 +1,18 @@
 $(document).ready(function(){
-  var carousel = $(".carousel"),
-    currdeg  = 0;
+    // Activate Carousel
+  $("#myCarousel").carousel();
 
-$(".next").on("click", { d: "n" }, rotate);
-$(".prev").on("click", { d: "p" }, rotate);
-
-function rotate(e){
-  if(e.data.d=="n"){
-    currdeg = currdeg - 60;
-  }
-  if(e.data.d=="p"){
-    currdeg = currdeg + 60;
-  }
-  carousel.css({
-    "-webkit-transform": "rotateY("+currdeg+"deg)",
-    "-moz-transform": "rotateY("+currdeg+"deg)",
-    "-o-transform": "rotateY("+currdeg+"deg)",
-    "transform": "rotateY("+currdeg+"deg)"
+  // Enable Carousel Indicators
+  $(".item").click(function(){
+      $("#myCarousel").carousel(1);
   });
-}
+
+  // Enable Carousel Controls
+  $(".left").click(function(){
+      $("#myCarousel").carousel("prev");
+  });
+
+  $(".right").click(function(){
+      $("#myCarousel").carousel("next");
+  });
 });

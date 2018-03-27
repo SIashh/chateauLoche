@@ -32,7 +32,7 @@ h2 {
 }
 
 .paragrapheMain{
-  padding: 10vh;
+  padding: 5vh;
   text-align: center;
   font-size: 1.3em;
 }
@@ -59,9 +59,16 @@ h2 {
   background-color: #A0CEF1;
 }
 
+#discover{
+  height: 100vh;
+  background-color: #4E5975;
+  font-family: opensemibold;
+}
+
 .bgVert {
   color: #3F3233;
   background-color: #C2C694;
+  background-color: #5C712F;
 }
 
 .bgBleuFoncé {
@@ -140,6 +147,12 @@ h2 {
   font-size: 1.2em;
 }
 
+<<<<<<< HEAD
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+=======
 
 ///////
 .contain {
@@ -185,22 +198,15 @@ h2 {
   background-repeat: no-repeat;
   background-image: url("../img/jardin.PNG");
 
-}
-.c {
-  transform: rotateY(240deg) translateZ(250px);
-  background: #39b54a;
-  background-repeat: no-repeat;
-  background-image: url("../img/panodonjon01.jpg");
-
+>>>>>>> ea161106c1bcbba24be1b67efc5d69b6e6d14164
 }
 
-.next, .prev {
-  margin-top: 10vh;
+#myCarousel{
+  height: 17.4vh;
+  width: 50vw;
+  margin: auto;
 }
-.next:hover, .prev:hover { color: #000; }
-.next:active, .prev:active {
-  top: 104px;
-  box-shadow: 0 1px 0 #999;
+
+.carousel-caption{
+  padding-top: 5%;
 }
-.next { right: 5em; }
-.prev { left: 5em; }
