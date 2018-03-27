@@ -192,13 +192,12 @@ h2 {
   background-image: url("../img/panolr04.jpg");
 
 }
+
 .b {
   transform: rotateY(120deg) translateZ(250px);
   background: #0072bc;
   background-repeat: no-repeat;
   background-image: url("../img/jardin.PNG");
-
->>>>>>> ea161106c1bcbba24be1b67efc5d69b6e6d14164
 }
 
 #myCarousel{
