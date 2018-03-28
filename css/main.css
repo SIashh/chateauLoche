@@ -3,9 +3,14 @@
   padding: 0;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 #container {
     background-image: url("../img/Loches4.jpg");
-    background-position: 0 -100px;
+    /*background-position: 0 1vh;*/
     height: 85vh;
 }
 
@@ -21,9 +26,12 @@
   height: 85vh;
 }
 
+
 h2 {
+  margin-top: 0;
+  font-size: 3em;
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 10vh;
   font-family: 'Berkshire Swash', cursive;
 }
 
@@ -34,7 +42,8 @@ h2 {
 .paragrapheMain{
   padding: 5vh;
   text-align: center;
-  font-size: 1.3em;
+  /*font-family: opensemibold;*/
+  font-size: 1.5vw;
 }
 
 .mainPart {
@@ -45,9 +54,6 @@ h2 {
   background-size: cover;
 }
 
-#discover {
-  margin-top: 10vh;
-}
 
 .bgBlue {
   color: #D9B897;
@@ -60,15 +66,14 @@ h2 {
 }
 
 #discover{
+  margin-top: 10vh;
   height: 100vh;
   background-color: #4E5975;
-  font-family: opensemibold;
 }
 
 .bgVert {
   color: #3F3233;
   background-color: #C2C694;
-  background-color: #5C712F;
 }
 
 .bgBleuFoncé {
@@ -86,16 +91,12 @@ h2 {
   background-color: #9A5E41;
 }
 
-#footer {
-  height: 40vh;
-}
-
 
 #logo{
   padding: 1vh;
   padding: 1vw;
   float: left;
-  margin-right: 25vh;
+  margin-right: 15vh;
 }
 
 .reseau {
@@ -126,9 +127,11 @@ h2 {
 
 .onglet_bandeau{
   padding: 1vh;
+  font-size: 1.4em;
   display: inline-block;
   font-family: 'Berkshire Swash', cursive;
-  margin-top: 5vh;
+  margin-top: 4vh;
+  margin-right: 20px;
 }
 
 #bandana{
@@ -141,20 +144,18 @@ h2 {
   z-index: 1030;
 }
 
-.onglet_bandeau a{
+.onglet_bandeau a {
   text-decoration: none;
   color: #F4DEBB;
-  font-size: 1.2em;
+  font-size: 1.5vw;
 }
 
-<<<<<<< HEAD
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 70%;
     margin: auto;
-=======
+}
 
-///////
 .contain {
   /*margin: 0 auto;*/
   width: 100vh;
@@ -208,4 +209,65 @@ h2 {
 
 .carousel-caption{
   padding-top: 5%;
+}
+
+
+#footer span {
+  display: block;
+  margin-top: 3px;
+}
+
+#footer {
+  height: 27vh;
+  position: relative;
+}
+
+.contactEtInfos {
+  position: absolute;
+  font-size: 1.1em;
+  top: 4vh;
+  left: 8vw;
+}
+
+.contact {
+  margin-left: -10px;
+  font-size: 2vw;
+  margin-bottom: 15px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.petitsLiens {
+  position: absolute;
+  top: 4vh;
+  left: 45vw;
+  bottom: 8px;
+  right: 20vw;
+}
+
+.petitsLiens a {
+  color: #3F3233;
+  margin-right: 15px;
+}
+
+.icons {
+  position: absolute;
+  top: 4vh;
+  left: 80vw;
+}
+
+.icons a {
+  display: block;
+}
+
+#fandt {
+  float: left;
+  margin-right: 20px;
+}
+
+#facebook {
+  margin-bottom: 20px;
+}
+
+#logoLoches {
+  margin-bottom: 15px;
 }
