@@ -2,66 +2,50 @@
 <html>
 <head>
   <meta charset="utf-8">
-<<<<<<< HEAD
-  <link rel="stylesheet" media="screen" type="text/css" href="css/main.css"/>
-  <script type="text/javascript" src="./libs/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="./js/scroll.js"></script>
-=======
->>>>>>> 098cc5ea14852fc927a40109bec952d4ae7d9980
   <title>Chateau Loches</title>
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" media="screen" type="text/css" href="css/main.css"/>
+  <!-- <script type="text/javascript" src="./libs/jquery-3.3.1.min.js"></script> -->
+  <script type="text/javascript" src="./js/scroll.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
 </head>
 <body>
-<<<<<<< HEAD
-  <div class="" id="container">
-    <div class="" id="bandana">
-      <a href="#"><img src="img/logo.png" alt="" id="logo"></a>
-      <ul id="menu">
-        <li class="onglet_bandeau"><a href="#discover" class="scroll">Découvrez le monument</a></li>
-        <li class="onglet_bandeau"><a href="#prepare" class="scroll">Préparez votre visite</a></li>
-        <li class="onglet_bandeau"><a href="#" class="scroll">Evénements</a></li>
-        <li class="onglet_bandeau"><a href="#" class="scroll">Activités pédagogiques</a></li>
-        <li id="a" class="onglet_bandeau"><a href="#" class="scroll">Poursuivez votre visite</a></li>
-      </ul>
-    </div>
-=======
   <div class="" id="bandana">
-    <a href="#"><img src="img/logo.png" alt="" id="logo"></a>
+    <a class="scroll" href="body"><img src="img/logo.png" alt="" id="logo"></a>
     <ul id="menu">
       <li class="onglet_bandeau">
         <div class="">
-          <a href="#discover">Le monument</a>
+          <a class="scroll" href="#discover">Le monument</a>
         </div>
       </li>
       <li class="onglet_bandeau">
         <div class="">
-          <a href="#prepare">Viste du site</a>
+          <a class="scroll" href="#prepare">Viste du site</a>
         </div>
       </li>
       <li class="onglet_bandeau">
         <div class="">
-          <a href="#event">Evénements</a>
+          <a class="scroll" href="#event">Evénements</a>
         </div>
       </li>
       <li class="onglet_bandeau">
         <div class="">
-          <a href="#activite">Activités pédagogiques</a>
+          <a class="scroll" href="#activite">Activités pédagogiques</a>
         </div>
       </li>
       <li class="onglet_bandeau">
         <div class="">
-          <a href="#poursuivreVisite">Visite des alentours</a>
+          <a class="scroll" href="#poursuivreVisite">Visite des alentours</a>
         </div>
       </li>
     </ul>
->>>>>>> 098cc5ea14852fc927a40109bec952d4ae7d9980
+  </div>
+
+  <div class="mainPart" id="container">
   </div>
 
   <div class="mainPart bgBlue" id="discover">
@@ -123,8 +107,7 @@
 
   </div>
 </div>
-<div class="mainPart" id="container">
-</div>
+
 <div class="mainPart bgBeige" id="prepare">
   <h2 id="prep">Viste du site</h2>
   <p class="paragrapheMain">Le billet de la Cité Royale inclut le donjon, le logis royal, le jardin médiéval.</p>
@@ -146,19 +129,26 @@
       Accessibilité
     </div>
   </div>
-
 </div>
+
+<div class="mainPart" id="empty">
+</div>
+
+
 <div class="mainPart bgBleuFoncé" id="event">
   <h2 id="ev">Evènements</h2>
   <p class="paragrapheMain">La Cité Royale regorge de secrets et de savoirs qui méritent d'ếtre transmis. Des ateliers et des animations pour petits et grands sont mis en place pour partager un moment créatif, ludique et culturelle.</p>
 </div>
-<div class="mainPart" id="empty">
-</div>
+
 <div class="mainPart bgOrange" id="activite">
   <h2 id="ev">Activité Pédagodique</h2>
   <p class="paragrapheMain">De quoi attiser la soif de connaissance des élèves de la maternelle au lycée ! Toute l’année, la Cité Royale de Loches organise des animations à leur intention. Proposées par le Conseil Départemental d’Indre-et-Loire, ces activités sont fondées sur une approche pédagogique et ludique de la Cité royale de Loches, de son histoire, de son environnement… en accord avec les programmes scolaires.
     <br><br>La plupart des groupes scolaires peuvent être accompagnés par un guide la Cité Royale. Toutefois, il est aussi possible de visiter en autonomie, à l'aide d'un carnet de voyage.</p>
   </div>
+
+  <div class="mainPart" id="empty2">
+  </div>
+
   <div class="mainPart bgBleuClair" id="poursuivreVisite">
     <h2 id="ev">Poursuivez votre visite</h2>
     <p class="paragrapheMain">Après la cité royale, pourquoi pas explorer Loches et ses alentours ? Pousser le chemin vers d’autres grands sites historiques ? Le patrimoine riche et unique de la vallée de la Loire regorge de trésors. Châteaux, musées, villages remarquables… voici des pistes pour se balader en Touraine de la préhistoire à nos jours.
@@ -166,8 +156,7 @@
       <br><br>
       En Touraine, le public peut visiter huit monuments qui sont la propriété du Département : cité royale de Loches, forteresse royale de Chinon, musée de la Préhistoire du Grand-Pressigny, musée Rabelais à Seuilly, musée Balzac à Saché, la demeure de Ronsard à La Riche, et le domaine de Candé à Monts.</p>
     </div>
-    <div class="mainPart" id="empty2">
-    </div>
+
     <div class="bgVert" id="footer">
       <div class="contactEtInfos">
         <div class="contact bgVert">Contact :</div>

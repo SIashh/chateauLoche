@@ -21,7 +21,6 @@ $(document).ready(function(){
       $(document).scrollTop(150);
     });
 
-    */
 
     var fadeStart=200 // 100px scroll or less will equiv to 1 opacity
     ,fadeUntil=600 // 200px scroll or more will equiv to 0 opacity

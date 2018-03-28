@@ -11,18 +11,18 @@ body, html {
 #container {
     background-image: url("../img/Loches4.jpg");
     /*background-position: 0 1vh;*/
-    height: 87vh;
+    height: 100vh;
 }
 
 #empty {
   background-image: url("../img/Loches3.jpg");
-  height: 87vh;
+  height: 100vh;
 }
 
 #empty2 {
   background-image: url("../img/Loches5.jpg");
   background-position: 0 7vh;
-  height: 87vh;
+  height: 100vh;
 }
 
 
@@ -46,7 +46,7 @@ h2 {
 }
 
 .mainPart {
-  height: 87vh;
+  height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -65,7 +65,7 @@ h2 {
 }
 
 #discover{
-  margin-top: 10vh;
+  /*margin-top: 10vh;*/
   height: 100vh;
   background-color: #4E5975;
 }
