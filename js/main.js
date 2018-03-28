@@ -15,4 +15,9 @@ $(document).ready(function(){
   $(".right").click(function(){
       $("#myCarousel").carousel("next");
   });
+
+  $("discover").stellar({
+    horizontalScrolling: false,
+    responsive: true
+  });
 });
