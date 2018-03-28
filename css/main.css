@@ -134,13 +134,8 @@ h2 {
 }
 
 #bandana{
-<<<<<<< HEAD
   background-color: #3F3233;
   height: 13vh;
-=======
-  background-color: rgba(63, 50, 51, 0);#3F3233;
-  height: 15vh;
->>>>>>> 1c4df5549e8df38e6c0e41f88f3a2283bd837fe3
   position: fixed;
   top: 0;
   right: 0;
