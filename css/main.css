@@ -3,57 +3,100 @@
   padding: 0;
 }
 
-#container {
-    background-image: url("../img/Loches4.jpg");
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*opacity: 0.9;*/
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
+#container {
+    background-image: url("../img/Loches4.jpg");
+    /*background-position: 0 1vh;*/
+    height: 85vh;
+}
+
+#empty {
+  background-image: url("../img/Loches3.jpg");
+  background-position: 0 5vh;
+  height: 85vh;
+}
+
+#empty2 {
+  background-image: url("../img/Loches5.jpg");
+  background-position: 0 7vh;
+  height: 85vh;
+}
+
+
 h2 {
+  margin-top: 0;
+  font-size: 3em;
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 10vh;
   font-family: 'Berkshire Swash', cursive;
+}
+
+.bgBlue h2 {
   color: #F4DEBB;
 }
 
-#p1{
-  padding: 10vh;
+.paragrapheMain{
+  padding: 5vh;
   text-align: center;
-  color: white
+  /*font-family: opensemibold;*/
+  font-size: 1.5vw;
+}
+
+.mainPart {
+  height: 85vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.bgBlue {
+  color: #D9B897;
+  background-color: #565E75;
+}
+
+.bgBleuClair {
+  color: #3F3233;
+  background-color: #A0CEF1;
 }
 
 #discover{
+  margin-top: 10vh;
   height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #4E5975;
-  font-family: opensemibold;
 }
 
-#prepare{
-  height: 85vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bgVert {
+  color: #3F3233;
+  background-color: #C2C694;
+}
+
+.bgBleuFoncé {
+  color: #D9B897;
+  background-color: #3B4C5C;
+}
+
+.bgBeige {
+  color: #3F3233;
   background-color: #D9B897;
 }
 
-#prep {
-  color: #0B0B0D;
+.bgOrange {
+  color: #3F3233;
+  background-color: #9A5E41;
 }
+
 
 #logo{
   padding: 1vh;
   padding: 1vw;
   float: left;
-  margin-right: 37vh;
+  margin-right: 15vh;
 }
 
 .reseau {
@@ -81,33 +124,150 @@ h2 {
   padding-bottom: 15vh;
 }
 
-#activite{
-  padding : 15vh;
-
-}
 
 .onglet_bandeau{
   padding: 1vh;
+  font-size: 1.4em;
   display: inline-block;
   font-family: 'Berkshire Swash', cursive;
-  margin-top: 5vh;
+  margin-top: 4vh;
+  margin-right: 20px;
 }
 
 #bandana{
   background-color: rgba(63, 50, 51, 0);#3F3233;
   height: 15vh;
   position: fixed;
+  top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
 }
 
-.onglet_bandeau a{
+.onglet_bandeau a {
   text-decoration: none;
   color: #F4DEBB;
+  font-size: 1.5vw;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.contain {
+  /*margin: 0 auto;*/
+  width: 100vh;
+  height: 20vw;
+  position: relative;
+  perspective: 1000px;
+}
+
+#carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+  background: #ed1c24;
+  background-repeat: no-repeat;
+  background-image: url("../img/panolr04.jpg");
 
 }
 
-#menu{
+.b {
+  transform: rotateY(120deg) translateZ(250px);
+  background: #0072bc;
+  background-repeat: no-repeat;
+  background-image: url("../img/jardin.PNG");
+}
 
+#myCarousel{
+  height: 17.4vh;
+  width: 50vw;
+  margin: auto;
+}
+
+.carousel-caption{
+  padding-top: 5%;
+}
+
+
+#footer span {
+  display: block;
+  margin-top: 3px;
+}
+
+#footer {
+  height: 27vh;
+  position: relative;
+}
+
+.contactEtInfos {
+  position: absolute;
+  font-size: 1.1em;
+  top: 4vh;
+  left: 8vw;
+}
+
+.contact {
+  margin-left: -10px;
+  font-size: 2vw;
+  margin-bottom: 15px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.petitsLiens {
+  position: absolute;
+  top: 4vh;
+  left: 45vw;
+  bottom: 8px;
+  right: 20vw;
+}
+
+.petitsLiens a {
+  color: #3F3233;
+  margin-right: 15px;
+}
+
+.icons {
+  position: absolute;
+  top: 4vh;
+  left: 80vw;
+}
+
+.icons a {
+  display: block;
+}
+
+#fandt {
+  float: left;
+  margin-right: 20px;
+}
+
+#facebook {
+  margin-bottom: 20px;
+}
+
+#logoLoches {
+  margin-bottom: 15px;
 }
