@@ -94,7 +94,7 @@ h2 {
 }
 
 #bandana{
-  background-color: #3F3233;
+  background-color: rgba(63, 50, 51, 0);#3F3233;
   height: 15vh;
   position: fixed;
   right: 0;
