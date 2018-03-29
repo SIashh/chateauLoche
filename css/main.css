@@ -97,6 +97,7 @@ h2 {
   padding: 1vh;
   padding: 1vw;
   float: left;
+  height: 13vh;
   margin-right: 15vh;
 }
 
@@ -106,13 +107,12 @@ h2 {
 }
 
 #home{
-  background-image: url("../img/accueil.jpg");
   background-position: center;
+
 }
 
 #container2{
   display: inline-block;
-
 }
 
 .activite{
@@ -183,22 +183,13 @@ h2 {
   border-radius: 10px;
 }
 
-.a {
-  transform: rotateY(0deg) translateZ(250px);
-  background: #ed1c24;
-  background-repeat: no-repeat;
-  background-image: url("../img/panolr04.jpg");
-
-}
-
-.b {
-  transform: rotateY(120deg) translateZ(250px);
-  background: #0072bc;
-  background-repeat: no-repeat;
-  background-image: url("../img/jardin.PNG");
-}
-
 #myCarousel{
+  height: 17.4vh;
+  width: 50vw;
+  margin: auto;
+}
+
+#myCarousel2{
   height: 17.4vh;
   width: 50vw;
   margin: auto;
@@ -221,14 +212,14 @@ h2 {
 
 .contactEtInfos {
   position: absolute;
-  font-size: 1.1em;
+  font-size: 2vh;
   top: 4vh;
   left: 8vw;
 }
 
 .contact {
   margin-left: -10px;
-  font-size: 2vw;
+  font-size: 2vh;
   margin-bottom: 15px;
   font-family: 'Berkshire Swash', cursive;
 }
@@ -267,4 +258,61 @@ h2 {
 
 #logoLoches {
   margin-bottom: 15px;
+}
+
+video#bgvid {
+  right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto;
+  background: url(img/Loches4.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+html { background: url(polina.jpg) #000 no-repeat center center fixed; }
+#bgvid { display: none; }
+
+#bandana{
+  height: 50vh;
+  position: inherit;
+}
+
+#bandana a{
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 2vh;
+  color: #222;
+}
+
+#lg {
+  height: 20vh;
+  background-color: #4E5975;
+  padding-left: 27vh;
+  padding-top: 4vh;
+}
+
+#bandana div{
+  text-align: center;
+}
+
+.gris{
+  opacity: 0.95;
+  background-color: #9A5E41;
+  background-color: #D9B897;
+
+
+}
+
+.blanc{
+  background-color: #9A5E41;
+  opacity: 0.95;
+}
+
+.onglet_bandeau {
+  height: 6vh;
+  margin: 0;
+  display: block;
+}
+
+
 }
