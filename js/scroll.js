@@ -26,21 +26,21 @@ $(document).ready(function(){
     ,fadeUntil=600 // 200px scroll or more will equiv to 0 opacity
     ,fading = $('#bandana');
 
-    opacity = 0;
+    opacity = 0.5;
     rgba = "rgba(63,50,51,"+opacity+")";
     fading.css('background-color',rgba);
 
     $(window).bind('scroll', function(){
       var offset = $(document).scrollTop()
-      ,opacity=0;
+      ,opacity=0.5
       //console.log("offset = "+offset);
       if( offset<=fadeStart ){
         // $("#logo").animate({height:"100px",width:"200px"exhn},200);
-        opacity = 0;
+        opacity = 0.5;
 
       }else if( offset<=fadeUntil ){
 
-        opacity=offset/(fadeUntil+400);
+        opacity=offset/(fadeUntil);
 
       }else{
         opacity=1;
@@ -51,4 +51,20 @@ $(document).ready(function(){
       fading.css('background-color',rgba);
     });
 
+    console.log($(window).height());
+    console.log($(window).width());
+    console.log($("myVideo").width());
+    console.log($("#myVideo").height());
+
+
+
+    $("#volumeUp").click(function(){
+      console.log($("#myVideo").attr("muted"));
+      if( $("#myVideo").prop('muted',true)){
+        $("#myVideo").prop('muted', false);
+      }else {
+        $("#myVideo").prop('muted', true);
+      }
+
+    });
 });

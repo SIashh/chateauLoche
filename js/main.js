@@ -15,4 +15,10 @@ $(document).ready(function(){
   $(".right").click(function(){
       $("#myCarousel").carousel("next");
   });
+
+  $(".carousel-indicators, .carousel-inner").hover(function() {
+    $("#myCarousel img").css("opacity", "0.8");
+  }, function() {
+    $("#myCarousel img").css("opacity", "1");
+  });
 });
