@@ -197,7 +197,7 @@ h2 {
   background-image: url("../img/jardin.PNG");
 }
 
-#myCarousel h3 {
+.carousel h3 {
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     /*color: #D9B897;*/
@@ -211,20 +211,28 @@ h2 {
   /*opacity: 0.3;*/
 }
 
-#myCarousel {
+.carousel {
   height: 17.4vh;
   width: 50vw;
   margin: auto;
+}
+
+#myCarousel2, #myCarousel3, #myCarousel4 {
+  margin-top: 5%;
 }
 
 .carousel-caption{
   padding-top: 5%;
 }
 
+.titleCarousel {
+  text-align: center;
+  color: black;
+  font-family: 'Berkshire Swash', cursive;
+}
 
 #footer span {
   display: block;
-  margin-top: 3px;
 }
 
 #footer {
@@ -234,21 +242,22 @@ h2 {
 
 .contactEtInfos {
   position: absolute;
-  font-size: 1.1em;
-  top: 4vh;
+  font-size: 2vh;
+  top: 3vh;
   left: 8vw;
 }
 
 .contact {
   margin-left: -10px;
-  font-size: 2vw;
+  font-size: 3vh;
   margin-bottom: 15px;
   font-family: 'Berkshire Swash', cursive;
 }
 
 .petitsLiens {
   position: absolute;
-  top: 4vh;
+  font-size: 2vh;
+  top: 3vh;
   left: 45vw;
   bottom: 8px;
   right: 20vw;
@@ -261,7 +270,7 @@ h2 {
 
 .icons {
   position: absolute;
-  top: 4vh;
+  top: 3vh;
   left: 80vw;
 }
 

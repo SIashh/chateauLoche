@@ -1,24 +1,29 @@
 $(document).ready(function(){
     // Activate Carousel
-  $("#myCarousel").carousel();
+  $(".carousel").carousel();
 
   // Enable Carousel Indicators
   $(".item").click(function(){
-      $("#myCarousel").carousel(1);
+      $(".carousel").carousel(1);
   });
+
+  $(".titleCarousel h3").hide()
+  $(".titleCarousel h3:first-child").show();
 
   // Enable Carousel Controls
   $(".left").click(function(){
-      $("#myCarousel").carousel("prev");
+      $(".carousel").carousel("prev");
   });
 
   $(".right").click(function(){
-      $("#myCarousel").carousel("next");
+      $(".carousel").carousel("next");
   });
 
-  $(".carousel-indicators, .carousel-inner").hover(function() {
-    $("#myCarousel img").css("opacity", "0.8");
+  $(".paragrapheMain").not("#paraAccueil").css("font-size", "1.4em");
+
+  $(".carousel-indicators, .item").hover(function() {
+    $(".carousel img").css("opacity", "0.8");
   }, function() {
-    $("#myCarousel img").css("opacity", "1");
+    $(".carousel img").css("opacity", "1");
   });
 });
