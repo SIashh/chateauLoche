@@ -59,6 +59,84 @@ h2 {
   height: 100vh;
 }
 
+.pulse {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 50%;
+  -webkit-animation: pulse 1s ease-out;
+  -moz-animation: pulse 1s ease-out;
+  animation: pulse 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #fff;
+  z-index: 10;
+  position: absolute;
+  right:10%;
+  top:75%;
+}
+
+#volume{
+  cursor:pointer;
+  position:absolute;
+  font-size:40px;
+  top:78.5%;
+  right:11.5%;
+  z-index:10;
+}
+
+
+
+
+
+@-moz-keyframes pulse {
+ 0% {
+    -moz-transform: scale(0);
+    opacity: 1;
+ }
+ 25% {
+    -moz-transform: scale(0.2);
+    opacity: 1;
+ }
+ 50% {
+    -moz-transform: scale(0.4);
+    opacity: 1;
+ }
+ 75% {
+    -moz-transform: scale(0.5);
+    opacity: 1;
+ }
+ 100% {
+    -moz-transform: scale(1);
+    opacity: 1;
+ }
+}
+
+@-webkit-keyframes "pulse" {
+ 0% {
+    -webkit-transform: scale(0);
+    opacity: 1;
+ }
+ 25% {
+    -webkit-transform: scale(0);
+    opacity: 1;
+ }
+ 50% {
+    -webkit-transform: scale(0.1);
+    opacity: 1;
+ }
+ 75% {
+    -webkit-transform: scale(0.5);
+    opacity: 1;
+ }
+ 100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+ }
+}
 
 .bgBlue {
   color: #D9B897;
@@ -95,7 +173,6 @@ h2 {
   color: #3F3233;
   background-color: #9A5E41;
 }
-
 
 #logo{
   padding: 1vh;
