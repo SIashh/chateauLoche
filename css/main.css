@@ -247,7 +247,7 @@ video#bgvid {
 }
 
 #footer {
-  height: 27vh;
+  height: 29vh;
   position: relative;
 }
 
@@ -308,7 +308,7 @@ video#bgvid {
 
 
 
-@media screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 800px) and (max-device-height: 800px){
 html { background: url(polina.jpg) #000 no-repeat center center fixed; }
 #bgvid { display: none; }
 
@@ -321,8 +321,16 @@ html { background: url(polina.jpg) #000 no-repeat center center fixed; }
   height: inherit;
 }
 
+.para{
+  font-size: 2vh;
+}
+
 .contactEtInfos{
-  left: 4vw;
+  font-size: 80%;
+}
+
+.petitsLiens{
+  font-size: 80%;
 }
 
 #bandana a{
@@ -337,10 +345,16 @@ html { background: url(polina.jpg) #000 no-repeat center center fixed; }
 }
 
 #fandt img{
-  display: inline-block;
-  width: 50%;
-  height: 50%;
+  width: 5vw;
+  height: 5vh;
 }
+
+#fandt td{
+  margin: 1vh;
+}
+
+
+
 
 #lg {
   height: 20vh;
