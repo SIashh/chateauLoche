@@ -58,12 +58,14 @@ $(document).ready(function(){
 
 
 
-    $("#volumeUp").click(function(){
+    $("#volume").click(function(){
       console.log($("#myVideo").attr("muted"));
-      if( $("#myVideo").prop('muted',true)){
+      if( $("#myVideo").prop('muted')){
         $("#myVideo").prop('muted', false);
+        $("#volume").html("volume_up");
       }else {
         $("#myVideo").prop('muted', true);
+        $("#volume").html("volume_off");
       }
 
     });

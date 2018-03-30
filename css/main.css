@@ -21,10 +21,18 @@ h2 {
   color: #F4DEBB;
 }
 
-.paragrapheMain{
+.para {
   padding: 5vh;
   text-align: center;
+<<<<<<< HEAD
   /*font-family: opensemibold;*/
+=======
+  font-size: 1.3vw;
+}
+
+.mainPart h2 {
+  font-size: 2.5em;
+>>>>>>> c7497ed7fd01ba4c0cc72e5ed34ce2e83ffe1ea9
 }
 
 .mainPart {
@@ -34,14 +42,25 @@ h2 {
   background-size: cover;
 }
 
+video#bgvid {
+  right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  background: url(img/Loches4.jpg) no-repeat;
+  background-size: cover;
+}
+
+
 #myVideo{
-  /* height:100vh; */
+  height: auto;
   width: 100%;
-  position:fixed;
-  z-index: -1;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#bgvid {
+  background: transparent;
+  background-color: #4E5975;
 }
 
 
@@ -132,7 +151,7 @@ h2 {
 
 .onglet_bandeau{
   padding: 1vh;
-  font-size: 1.4em;
+  /*font-size: 1.4em;*/
   display: inline-block;
   font-family: 'Berkshire Swash', cursive;
   margin-top: 4vh;
@@ -291,13 +310,7 @@ h2 {
   height : 38%;
 }
 
-video#bgvid {
-  right: 0; bottom: 0;
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto;
-  background: url(img/Loches4.jpg) no-repeat;
-  background-size: cover;
-}
+
 
 @media screen and (max-device-width: 800px) {
 html { background: url(polina.jpg) #000 no-repeat center center fixed; }
