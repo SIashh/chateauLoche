@@ -308,7 +308,11 @@ video#bgvid {
 
 
 
+<<<<<<< HEAD
 @media screen and (max-device-width: 800px) and (max-device-height: 800px){
+=======
+@media screen and (max-width: 800px) {
+>>>>>>> 158143f724f6dd1498fafac6694ab4587917e35d
 html { background: url(polina.jpg) #000 no-repeat center center fixed; }
 #bgvid { display: none; }
 

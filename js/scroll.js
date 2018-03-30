@@ -8,13 +8,14 @@ $(document).ready(function(){
 	var target = $(this).attr('href');
        /* le sélecteur $(html, body) permet de corriger un bug sur chrome
        et safari (webkit) */
-       var heightBandeau = $("#bandana").height();
+       var heightBandeau = (window.innerWidth < 800) ? ((target == "#discover") ? -$("#liContact").height()-12 : 0) : $("#bandana").height();
+
 	$('html, body')
        // on arrête toutes les animations en cours
        .stop()
        /* on fait maintenant l'animation vers le haut (scrollTop) vers
         notre ancre target */
-       .animate({scrollTop: $(target).offset().top-heightBandeau}, 1000 );
+       .animate({scrollTop: $(target).offset().top-heightBandeau+1}, 1000 );
     });
 
     $("#a").click(function(){
@@ -45,16 +46,10 @@ $(document).ready(function(){
       }else{
         opacity=1;
       }
-      console.log("offset = "+offset+"\n")
-      console.log("opacity = "+opacity+"\n")
       rgba = "rgba(63,50,51,"+opacity+")";;
       fading.css('background-color',rgba);
     });
 
-    console.log($(window).height());
-    console.log($(window).width());
-    console.log($("myVideo").width());
-    console.log($("#myVideo").height());
 
 
 
