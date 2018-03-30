@@ -24,15 +24,11 @@ h2 {
 .para {
   padding: 5vh;
   text-align: center;
-<<<<<<< HEAD
-  /*font-family: opensemibold;*/
-=======
   font-size: 1.3vw;
 }
 
 .mainPart h2 {
   font-size: 2.5em;
->>>>>>> c7497ed7fd01ba4c0cc72e5ed34ce2e83ffe1ea9
 }
 
 .mainPart {
@@ -323,6 +319,10 @@ html { background: url(polina.jpg) #000 no-repeat center center fixed; }
 
 .mainPart{
   height: inherit;
+}
+
+.contactEtInfos{
+  left: 4vw;
 }
 
 #bandana a{
