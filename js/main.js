@@ -27,5 +27,5 @@ $(document).ready(function(){
     $(".carousel img").css("opacity", "1");
   });
 
-  $(window).stellar();
+  
 });

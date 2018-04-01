@@ -15,7 +15,6 @@
   <script type="text/javascript" src="./js/scroll.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-  <script src="js/stellar.js/jquery.stellar.min.js"></script>
 
 </head>
 <body>
@@ -57,9 +56,16 @@
   <div id="bgvid" class="mainPart">
     <video autoplay loop muted="true" id="myVideo">
       <source src="video/vegas_loches.mp4" type="video/mp4">
-        <i class="material-icons" id="volumeUp">volume_up</i>
     </video>
   </div>
+
+  <div class="pulse">
+  </div>
+  <i class="material-icons" id="volume" unselectable="on">volume_off</i>
+
+  <div class="downArrow bounce">
+    <a href="#discover" class="scroll"><i class="material-icons" id="fleche">keyboard_arrow_down</i></a>
+</div>
 
   <div class="mainPart bgBlue" id="discover">
     <h2 id="disc">Découvrez la cité royale de Loches</h2>
