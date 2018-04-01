@@ -26,9 +26,4 @@ $(document).ready(function(){
   }, function() {
     $(".carousel img").css("opacity", "1");
   });
-
-<<<<<<< HEAD
-  
-=======
->>>>>>> 9ff3e91ad57cfa7af0b914a9aff95b469ea84af5
 });
