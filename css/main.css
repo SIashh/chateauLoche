@@ -21,11 +21,14 @@ h2 {
   color: #F4DEBB;
 }
 
-.paragrapheMain{
+.para {
   padding: 5vh;
   text-align: center;
-  /*font-family: opensemibold;*/
-  font-size: 1.2vw;
+  font-size: 1.3vw;
+}
+
+.mainPart h2 {
+  font-size: 2.5em;
 }
 
 .mainPart {
@@ -35,14 +38,25 @@ h2 {
   background-size: cover;
 }
 
+video#bgvid {
+  right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  background: url(img/Loches4.jpg) no-repeat;
+  background-size: cover;
+}
+
+
 #myVideo{
-  /* height:100vh; */
+  height: auto;
   width: 100%;
-  position:fixed;
-  z-index: -1;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#bgvid {
+  background: transparent;
+  background-color: #4E5975;
 }
 
 
@@ -205,7 +219,7 @@ h2 {
 
 .bgBlue {
   color: #D9B897;
-  background-color: #565E75;
+  background-color: #4E5975;
 }
 
 .bgBleuClair {
@@ -279,11 +293,7 @@ h2 {
   }
 }
 
-#discover{
-  /*margin-top: 10vh;*/
-  height: 100vh;
-  background-color: #4E5975;
-}
+
 
 .bgVert {
   color: #3F3233;
@@ -304,6 +314,7 @@ h2 {
   color: #3F3233;
   background-color: #9A5E41;
 }
+
 
 #logo{
   padding: 1vh;
@@ -340,7 +351,7 @@ h2 {
 
 .onglet_bandeau{
   padding: 1vh;
-  font-size: 1.4em;
+  /*font-size: 1.4em;*/
   display: inline-block;
   font-family: 'Berkshire Swash', cursive;
   margin-top: 4vh;
@@ -440,7 +451,7 @@ h2 {
 }
 
 #footer {
-  height: 27vh;
+  height: 29vh;
   position: relative;
 }
 
@@ -482,34 +493,48 @@ h2 {
   display: block;
 }
 
+
 #fandt {
   float: left;
   margin-right: 20px;
+  display: inline-block;
 }
 
 #facebook {
   margin-bottom: 20px;
 }
 
-#logoLoches {
+#logoLoches img{
   margin-bottom: 15px;
+  width : 38%;
+  height : 38%;
 }
 
-video#bgvid {
-  right: 0; bottom: 0;
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto;
-  background: url(img/Loches4.jpg) no-repeat;
-  background-size: cover;
-}
 
-@media screen and (max-device-width: 800px) {
+
+@media screen and (max-width: 800px) {
 html { background: url(polina.jpg) #000 no-repeat center center fixed; }
 #bgvid { display: none; }
 
 #bandana{
   height: 50vh;
   position: inherit;
+}
+
+.mainPart{
+  height: inherit;
+}
+
+.para{
+  font-size: 2vh;
+}
+
+.contactEtInfos{
+  font-size: 80%;
+}
+
+.petitsLiens{
+  font-size: 80%;
 }
 
 #bandana a{
@@ -519,11 +544,34 @@ html { background: url(polina.jpg) #000 no-repeat center center fixed; }
   color: #222;
 }
 
+.paragrapheMain{
+  font-size : 2vh;
+}
+
+#fandt img{
+  width: 5vw;
+  height: 5vh;
+}
+
+#fandt td{
+  margin: 1vh;
+}
+
+
+
+
 #lg {
   height: 20vh;
   background-color: #4E5975;
-  padding-left: 27vh;
+  padding-left: 30vw;
+  padding-right:30vw;
   padding-top: 4vh;
+}
+
+#logo{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 4vh;
 }
 
 #bandana div{
@@ -549,3 +597,4 @@ html { background: url(polina.jpg) #000 no-repeat center center fixed; }
 
 
 }
+>>>>>>> 9ff3e91ad57cfa7af0b914a9aff95b469ea84af5
